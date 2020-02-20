@@ -1,9 +1,9 @@
-CC=cc
+CC=gcc
 CFLAGS=-I.
 DEPS= 
 
 taste: tastylist.c
-	cc -o taste tastylist.c -I.
+	gcc -o taste tastylist.c -I.
 
 clean:
 	rm taste
