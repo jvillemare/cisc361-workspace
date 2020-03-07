@@ -6,4 +6,4 @@ mycp: copy.c
 	gcc -o mycp copy.c -I.
 
 clean:
-	rm taste
+	rm mycp test1
